@@ -3,12 +3,12 @@
 
 
 # In the program facecase.py is the main program
-git clone https://github.com/arunodhayan/HaarCascade-Trained-to-detect-my-Watch-.git 
-#The code illustrates that
-    1.The first few lines of code helps to download the images from imagenet.org
-    2.Resize the image based on required pixel i choose(100X100).
-    3.Then there will be unwanted images to remove that create a folder called uglies and unwanted images will be deleted
-    4.Now create a file bg.txt to list negative files for training 
+	git clone https://github.com/arunodhayan/HaarCascade-Trained-to-detect-my-Watch-.git 
+# The code illustrates that
+    	1.The first few lines of code helps to download the images from imagenet.org
+    	2.Resize the image based on required pixel i choose(100X100).
+   	3.Then there will be unwanted images to remove that create a folder called uglies and unwanted images will be deleted
+    	4.Now create a file bg.txt to list negative files for training 
 
 # To train the model
     mkdir data 
