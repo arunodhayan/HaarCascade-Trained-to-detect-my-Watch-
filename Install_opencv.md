@@ -19,10 +19,10 @@
     $ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
     $ unzip opencv_contrib.zip
 
-#Install Numpy,Nose,Matplotlib
+# Install Numpy,Nose,Matplotlib
     $python2 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
-#Install opencv in python2
+# Install opencv in python2
     $ cd ~/opencv-3.1.0/
     $ mkdir build
     $ cd build
@@ -34,7 +34,7 @@
         -D BUILD_EXAMPLES=ON ..
 
 
-#Step 3:
+# Step 3:
     $make -j4
 
 # If couldn't able to install or if make is broken
