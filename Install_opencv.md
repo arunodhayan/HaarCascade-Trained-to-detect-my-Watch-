@@ -32,6 +32,10 @@
         -D INSTALL_C_EXAMPLES=OFF \
         -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.1.0/modules \
         -D BUILD_EXAMPLES=ON ..
+        
+        if error occured in the above process
+        remove build folder and type mkdir build and cd build
+        then cmake ..
 
 
 # Step 3:
