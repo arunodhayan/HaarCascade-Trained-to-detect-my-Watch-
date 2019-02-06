@@ -18,7 +18,11 @@
 # opencv_contribute
     $ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
     $ unzip opencv_contrib.zip
-
+# for latest version 
+    git clone https://github.com/opencv/opencv.git
+    $ mkdir build
+    $ cd build
+    cmake ../
 # Install Numpy,Nose,Matplotlib
     $python2 -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
