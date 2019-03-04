@@ -2,8 +2,10 @@
     $ sudo apt-get update
     $ sudo apt-get upgrade
     $ sudo apt-get install build-essential cmake pkg-config
-    $ sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
-    $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+    $ sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev(16.04)
+    $  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev(18.04)
+    $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev(16.04)
+    $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev(18.04)
     $ sudo apt-get install libxvidcore-dev libx264-dev
     $ sudo apt-get install libgtk-3-dev
     $ sudo apt-get install libatlas-base-dev gfortran
